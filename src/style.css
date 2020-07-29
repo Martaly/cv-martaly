@@ -1,0 +1,65 @@
+body{
+    margin:0;
+    padding:0;
+    background: black;
+
+
+}
+header{
+    height:25em;
+color:rgb(10, 10, 10);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding:3em;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+background-color: #7e2400;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+box-shadow: inset 0px 20px 30px 5px rgba(0,0,0,0.75);
+}
+img{
+    height:25em;
+    width:25em;
+}
+.aboutme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color:white;
+    padding: 3em;
+}
+a{
+    text-decoration: none;
+    font-family: monospace;
+    color: white;
+    background: linear-gradient(90deg, #753117, #7e2400);
+    border-radius: 5px;
+    padding: 1em;
+}
+.skillsme {
+    color:white;
+    padding: 6em;
+    display: flex;
+    flex-direction: column;
+}
+.can {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid 1px white;
+    padding: 5em;
+    border-radius: 10px;
+}
+
+.box{
+    text-align: center;
+    font-family: monospace;
+}
+.box h4{
+    font-family: monospace;
+    color: white;
+    background: linear-gradient(90deg, #753117, #7e2400);
+    border-radius: 50%;
+       padding: 1em;
+}
