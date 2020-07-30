@@ -7,59 +7,75 @@ body{
 }
 header{
     height:25em;
-color:rgb(10, 10, 10);
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color:white;
+font-weight: lighter;
+font-family: 'Oswald', sans-serif;
 padding:3em;
 display: flex;
 align-items: center;
 justify-content: space-evenly;
-background-color: #7e2400;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
-box-shadow: inset 0px 20px 30px 5px rgba(0,0,0,0.75);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(70,20,0,1) 80%, rgba(126,36,0,1) 100%);
 }
 img{
     height:25em;
     width:25em;
+    border-radius: 30px;
 }
+
 .aboutme{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     color:white;
     padding: 3em;
+    font-family: 'Oswald', sans-serif;
+}
+.cv{
+    float: right;
+    margin-top: 3em;
 }
 a{
     text-decoration: none;
-    font-family: monospace;
-    color: white;
+    font-family: 'Oswald', sans-serif;
+        color: white;
     background: linear-gradient(90deg, #753117, #7e2400);
     border-radius: 5px;
     padding: 1em;
+    cursor: pointer;
 }
 .skillsme {
     color:white;
     padding: 6em;
     display: flex;
     flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(0deg, rgba(126,36,0,1) 0%, rgba(70,20,0,1) 20%, rgba(0,0,0,1) 100%);;
+
 }
 .can {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: solid 1px white;
     padding: 5em;
-    border-radius: 10px;
 }
 
 .box{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    font-family: monospace;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    width: 15em;
 }
-.box h4{
-    font-family: monospace;
-    color: white;
-    background: linear-gradient(90deg, #753117, #7e2400);
-    border-radius: 50%;
-       padding: 1em;
+
+ul{
+    text-align: center;
+    padding: 0;
+    line-height: 2em;
+    font-size:1em;
+}
+li{
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
 }
