@@ -16,11 +16,41 @@ align-items: center;
 justify-content: space-evenly;
 background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(70,20,0,1) 80%, rgba(126,36,0,1) 100%);
 }
+.hi{
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    line-height: 1em;
+}
+svg{
+    height: 35em;
+    border-radius: 30px;
+    margin-top: 12em;
+}
 img{
     height:25em;
     width:25em;
     border-radius: 30px;
 }
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo a{
+border-radius: 30px;
+}
+
+.ent{
+    position: relative;
+    height: 15em;
+    width: 15em;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.ent:hover{
+    box-shadow:0 0px 10px #fff;
+}
+
+
 
 .aboutme{
     display: flex;
@@ -39,24 +69,38 @@ a{
     font-family: 'Oswald', sans-serif;
         color: white;
     background: linear-gradient(90deg, #753117, #7e2400);
-    border-radius: 5px;
-    padding: 1em;
+    border-radius: 50px;
+    padding: 1.5em;
     cursor: pointer;
 }
+.like{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding-left:6em;
+    margin-bottom: 3em;
+    background-color: rgb(19, 19, 19);
+    padding:3em;
+    padding-top: 1em;
+    border-radius: 30px;
+    margin-left:3em;
+    margin-right: 3em;
+}
+
 .skillsme {
     color:white;
-    padding: 6em;
     display: flex;
     flex-direction: column;
     font-family: 'Oswald', sans-serif;
-    background: linear-gradient(0deg, rgba(126,36,0,1) 0%, rgba(70,20,0,1) 20%, rgba(0,0,0,1) 100%);;
-
+    background: linear-gradient(0deg, rgba(126,36,0,1) 0%, rgba(70,20,0,1) 20%, rgba(0,0,0,1) 100%);
+}
+.skills{
+    padding-left:6em;
 }
 .can {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 5em;
+    padding: 2em;
 }
 
 .box{
@@ -66,6 +110,10 @@ a{
     font-family: 'Oswald', sans-serif;
     font-weight: lighter;
     width: 15em;
+    background: linear-gradient(0deg, rgba(126,36,0,1) 0%, rgba(70,20,0,1) 20%, rgba(0,0,0,1) 100%);
+    border-radius: 50px;
+    padding: 1em;
+
 }
 
 ul{
